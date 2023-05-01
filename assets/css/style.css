@@ -1,0 +1,140 @@
+/* HEADER*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 0rem;
+    z-index: 2022;
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 0.5rem;
+    border-color: whitesmoke;
+    border-style: outset;
+}
+
+header .container .logo{
+    background-color: var(--primary-color);
+    border-radius: 9rem;
+}
+
+header .container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav h1{
+    padding-left: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.s-hero{
+    background: url(../img/fundo_de_tela.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.s-hero .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-hero .container .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 59.2rem;
+    margin-top: 24rem;
+    padding-bottom: 5.8rem;
+}
+
+.s-hero .container .text-box h2{
+    font-weight: 400;
+    line-height: 6rem;
+    text-align: center;
+    color: rgba(246, 7, 7, 0.8);
+    margin-bottom: 1.3rem;
+
+}
+
+.s-hero .container .text-box p{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.s-hero .container .text-box .consoles{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 2.3rem;
+}
+.s-hero .container .text-box .consoles img{
+    transition: all 0.2s;
+}
+
+.s-hero .container .text-box .consoles img:hover{
+    transform: translateY(-12%);
+}
+
+.s-hero .container .text-box .consolesrimary{
+    margin-top: 4rem;
+    padding: 1rem 5.6rem;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: var(--black-color-medium);
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .container .contact{
+    color: var(--primary-color);
+    font-weight: 400;
+    line-height: 2.4rem;
+    padding: 2.6rem;
+}
+
+footer .container .contact .social li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+    margin-top: 2.3rem;
+    margin-right: 4.8rem;
+    transition: all 0.2s;
+}
+
+footer .container .contact img{
+    height: 4rem;
+    width: auto;
+    transition: all 0.2s;
+}
+
+footer .container .contact img:hover{
+    transform: translateY(-12%);
+}

@@ -1,0 +1,38 @@
+@media (max-width: 1200px){
+}
+
+@media (max-width: 991px){
+}
+
+@media (max-width: 768px){
+}
+
+@media (max-width: 600px){
+}
+
+@media (max-width: 480px){
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 3rem 0rem;
+        z-index: 2022;
+        background-color: var(--black-color-medium);
+    }
+    header .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    header .container nav{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+}
